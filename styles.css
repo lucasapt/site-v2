@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f4f4f4;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.hero h1 {
+  margin-top: 20px;
+}
+
+/* Image Slider */
+.slider {
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  width: 100%;
+}
+
+.slide img {
+  width: 100%;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 30%;
+  text-align: center;
+}
+
+.card-icon {
+  width: 180px;
+  height: 180px;
+}
+
+/* Download Buttons */
+.download-btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 20px 0;
+   transition: opacity 0.2s ease; /* Adiciona uma transição suave para o efeito de esmaecimento */
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}
+
+.download-btn:active {
+  opacity: 0.6; /* Reduz a opacidade ao clicar */
+  background-color: inherit; /* Mantém a cor de fundo original */
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  transition: opacity 0.2s ease; /* Adiciona uma transição suave para o efeito de esmaecimento */
+}
+
+.view-btn {
+  background-color: #007bff;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.6; /* Reduz a opacidade ao clicar */
+  background-color: inherit; /* Mantém a cor de fundo original */
+}
+
+/* Downloads Section */
+.downloads-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.file-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
